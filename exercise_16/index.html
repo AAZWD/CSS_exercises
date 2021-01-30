@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+        ol, ul {
+          margin: 0;
+          pdding: 0;
+          margin-top: 20px;
+        }
+        li{
+          list-style-position: inside;
+        }
+        ol{
+          list-style: decimal-leading-zero;
+        }
+        ul{
+          list-style: square;
+        }
+        .decorated{
+          list-style-image: url(snow.png);
+          font-size: 30px;
+        }
+   </style>
+  </head>
+  <body>
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ol>
+  
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ul>
+
+    <ul class="decorated">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ul>
+  </body>
+</html>
